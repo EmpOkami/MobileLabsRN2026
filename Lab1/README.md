@@ -97,9 +97,13 @@ npx react-native run-android
 
 ## Структура проєкту
 /screens
+
 HomeScreen.js
+
 GalleryScreen.js
+
 ProfileScreen.js
+
 App.js
 
 
