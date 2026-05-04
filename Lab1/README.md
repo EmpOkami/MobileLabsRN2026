@@ -1,0 +1,115 @@
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/491c9abb-6441-4735-b4d7-dad6e1c8fe88" /># FirstMobileApp
+
+## Опис проєкту
+FirstMobileApp — це простий мобільний додаток, розроблений за допомогою React Native. Додаток демонструє базову навігацію між екранами та створення інтерфейсу.
+
+Реалізовані екрани:
+- Головна (список новин)
+- Фотогалерея (сітка зображень)
+- Профіль (форма реєстрації)
+
+---
+
+## Використані технології
+- React Native
+- React Navigation
+- JavaScript (ES6+)
+
+---
+
+## Інструкція із запуску
+
+### 1. Встановлення залежностей
+
+npm install
+
+### Запуск додатку
+
+#### Запуск у браузері (Web)
+
+npm run web
+
+#### Запуск на Android емуляторі
+
+npx react-native run-android
+
+Перед запуском необхідно встановити Android Studio та створити емулятор.
+
+#### Запуск на фізичному пристрої
+1. Увімкнути USB debugging на телефоні
+2. Підключити пристрій до ПК
+3. Виконати команду: npx react-native run-android
+
+
+## Основні способи запуску додатку
+
+### Web (браузер)
+Призначення: швидка перевірка інтерфейсу
+
+Переваги:
+- швидкий запуск
+- не потребує емулятора
+
+Недоліки:
+- не всі мобільні API працюють
+- можливі відмінності від реального пристрою
+
+### Android емулятор
+Призначення: повноцінне тестування
+
+Переваги:
+- підтримка більшості функцій
+- можливість тестування різних пристроїв
+
+Недоліки:
+- повільніший запуск
+- потребує більше ресурсів
+
+### Фізичний пристрій
+Призначення: найбільш точне тестування
+
+Переваги:
+- реальна продуктивність
+- робота з сенсорами
+
+Недоліки:
+- потребує додаткового налаштування
+
+## Скріншоти (З вебу)
+
+### Головний екран (Новини)
+![News Screen](<img width="418" height="864" alt="image" src="https://github.com/user-attachments/assets/35c5206f-8bf2-4fec-8120-fde5a4f30e0c" />
+)
+
+### Фотогалерея
+![Gallery Screen](<img width="401" height="866" alt="image" src="https://github.com/user-attachments/assets/7e898e78-d951-4047-917d-c12307203f8f" />
+)
+
+### Екран реєстрації
+![Profile Screen](<img width="395" height="860" alt="image" src="https://github.com/user-attachments/assets/0ba61dfa-67fe-4f42-9b4b-40dd18bee94a" />
+)
+
+## Скріншоти (З телефону)
+
+### Головний екран (Новини)
+![News Screen](<img width="576" height="1280" alt="photo_2026-05-04_19-04-28" src="https://github.com/user-attachments/assets/0f6294a8-bdee-415d-96f7-3a4a9e2bb76d" />
+)
+
+### Фотогалерея
+![Gallery Screen](<img width="576" height="1280" alt="photo_2026-05-04_19-04-28 (2)" src="https://github.com/user-attachments/assets/40373798-dd57-4b5d-9fc2-855f1cecd092" />
+)
+
+### Екран реєстрації
+![Profile Screen](<img width="576" height="1280" alt="photo_2026-05-04_19-04-28 (3)" src="https://github.com/user-attachments/assets/0b608865-cba2-4f22-adaf-ae3038e62497" />
+)
+
+## Структура проєкту
+/screens
+HomeScreen.js
+GalleryScreen.js
+ProfileScreen.js
+App.js
+
+
+## Висновок
+У ході виконання роботи було створено мобільний додаток з базовою навігацією між екранами, що демонструє основні можливості React Native.
